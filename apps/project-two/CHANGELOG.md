@@ -4,6 +4,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2024-2-28)
+
+### Features
+
+* **monorepo v4:** test running git hooks version three ([33fb64f](https://github.com/tom-57blocks/setup-monorepo-demo/commit/33fb64f56867bac40eb3defdcbc122c8b7911d5e))
+
 # 0.1.0 (2024-2-28)
 
 ### Features
