@@ -9,7 +9,7 @@ export const App: React.FC = () => {
     <div className="app">
       <header className="app-header">
         <img src={logo} className="app-logo" alt="logo" />
-        <p>Hello Project One112233</p>
+        <p>Hello Dashboard!</p>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
@@ -25,7 +25,7 @@ export const App: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React11
+            Learn React
           </a>
           {' | '}
           <a

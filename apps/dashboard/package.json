@@ -1,12 +1,12 @@
 {
-  "name": "project-two",
+  "name": "dashboard",
   "version": "0.2.0",
   "engines": {
     "node": ">=18.17.0",
     "npm": ">=9.0.0"
   },
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite --port 3002 --host localhost",
     "build": "vite build",
     "serve": "vite preview --host",
     "lint": "npm run lint:scripts",
