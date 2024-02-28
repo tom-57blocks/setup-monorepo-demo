@@ -6,15 +6,23 @@
   "command": {
     "publish": {
       "cleanupTempFiles": true,
+      "registry": "https://registry.npmjs.org",
       "removePackageFields": [
         "devDependencies",
         "scripts"
       ]
     },
     "version": {
+      "allowBranch": "main",
+      "changelogIncludeCommitsClientLogin": " - by @%l",
+      "changelogPreset": "angular",
+      "excludeDependents": true,
+      "exact": true,
       "conventionalCommits": true,
+      "ignoreChanges": ["**/CHANGELOG.md", "**/node_modules/**"],
       "changelogHeaderMessage": "## Automate your Workspace Versioning, Publishing & Changelogs with [Lerna-Lite](https://github.com/lerna-lite/lerna-lite) 📦🚀",
-      "message": "chore(release): publish new version %v"
+      "message": "chore(release): publish new version %v",
+      "syncWorkspaceLock": true
     }
   },
   
@@ -26,6 +34,7 @@
   ],
   "packages": [
     "packages/*",
-    "apps/*"
+    "apps/*",
+    "configs/*"
   ]
 }

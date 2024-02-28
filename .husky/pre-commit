@@ -2,8 +2,8 @@
 . "$(dirname "$0")/_/husky.sh"
 
 pnpm lint-staged
-cd ./apps/project-one
-pnpm exec tsc
+
+npx secretlint "**/*"
 
 # pnpm exec tsc at each project
 curPath="./apps"
