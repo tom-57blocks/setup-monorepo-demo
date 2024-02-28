@@ -1,0 +1,16 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+pnpm lint-staged
+cd ./apps/project-one
+pnpm exec tsc
+
+# pnpm exec tsc at each project
+curPath="./apps"
+for dir in ${curPath};do
+     if [ -d ${dir} ];then
+        cd ${dir}
+        pnpm exec tsc
+     fi
+done
+

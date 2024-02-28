@@ -1,0 +1,25 @@
+0 silly argv [object Object]
+1 notice cli v3.3.0
+2 verbose rootPath /Users/57block/Desktop/mystudy/setup-monorepo-demo
+3 silly createGitHubClient
+4 info versioning independent
+5 verbose project packages packages/* apps/*
+6 silly isAnythingCommitted
+7 verbose isAnythingCommitted 1
+8 silly currentBranch
+9 verbose currentBranch feat/monorepo-v2
+10 silly remoteBranchExists
+11 silly isBehindUpstream
+12 silly isBehindUpstream feat/monorepo-v2 is behind origin/feat/monorepo-v2 by 0 commit(s) and ahead by 0
+13 verbose git-describe.sync "*@*" => "5d6b270-dirty"
+14 silly git-describe parsed => {"refCount":"36","sha":"5d6b270","isDirty":true}
+15 silly git getCurrentBranchFirstCommit
+16 verbose exec git log --oneline --format="%h %aI" --reverse --max-parents=0 HEAD
+17 info oldestCommitSinceLastTag commit found since last tag: undefined - (SHA) e4a8c2b - 2023-08-01T14:25:31+01:00
+18 silly parseGitRepo
+19 verbose git config --get remote.origin.url
+20 silly createGitHubClient
+21 error HttpError: This endpoint requires you to be authenticated. - https://docs.github.com/graphql/guides/forming-calls-with-graphql#authenticating-with-graphql
+21 error     at /Users/57block/Desktop/mystudy/setup-monorepo-demo/node_modules/.pnpm/@octokit+request@8.2.0/node_modules/@octokit/request/dist-node/index.js:124:21
+21 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+21 error     at async getGithubCommits (file:///Users/57block/Desktop/mystudy/setup-monorepo-demo/node_modules/.pnpm/@lerna-lite+version@3.3.0_typescript@5.3.3/node_modules/@lerna-lite/version/dist/conventional-commits/get-github-commits.js:24:26)
