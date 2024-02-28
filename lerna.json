@@ -13,8 +13,6 @@
       ]
     },
     "version": {
-      "allowBranch": "main",
-      "changelogIncludeCommitsClientLogin": " - by @%l",
       "changelogPreset": "angular",
       "excludeDependents": true,
       "exact": true,
