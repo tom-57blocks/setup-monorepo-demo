@@ -12,7 +12,6 @@
     "prettier": "npx prettier --write src/**",
     "lint": "pnpm run lint:scripts",
     "lint:scripts": "TIMING=1 eslint --ext .ts,.tsx . --fix",
-    "test": "jest --passWithNoTests",
     "release": "semantic-release -e semantic-release-monorepo"
   },
   "dependencies": {

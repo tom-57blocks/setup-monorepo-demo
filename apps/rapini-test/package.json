@@ -12,8 +12,6 @@
     "prettier": "npx prettier --write src/**",
     "lint": "npm run lint:scripts",
     "lint:scripts": "TIMING=1 eslint --ext .ts,.tsx . --fix",
-    "test": "jest --passWithNoTests",
-    "cypress:open": "cypress open",
     "release": "semantic-release -e semantic-release-monorepo"
   },
   "dependencies": {
@@ -26,7 +24,6 @@
     "@testing-library/cypress": "^9.0.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^14.0.0",
-    "@types/jest": "^29.5.3",
     "@types/react": "^18.2.18",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.4",
