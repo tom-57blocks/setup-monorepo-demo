@@ -3,19 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-
   "packageManager": "pnpm@8.15.0",
   "workspaces": [
     "apps/*",
     "packages/*",
     "configs/*"
   ],
-
   "scripts": {
     "prepare": "husky install",
     "dev": "turbo dev --parallel --continue",
     "dev:admin": "turbo run dev --filter admin",
     "dev:dashboard": "turbo run dev --filter dashboard",
+    "dev:rapini-test": "turbo run dev --filter rapini-test",
     "build": "turbo build",
     "test": "turbo test",
     "lint": "turbo lint",

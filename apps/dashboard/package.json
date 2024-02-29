@@ -1,6 +1,6 @@
 {
   "name": "dashboard",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "engines": {
     "node": ">=18.17.0",
     "npm": ">=9.0.0"
@@ -9,16 +9,14 @@
     "dev": "vite --port 3002 --host localhost",
     "build": "vite build",
     "serve": "vite preview --host",
-    "lint": "npm run lint:scripts",
+    "lint": "pnpm run lint:scripts",
     "lint:scripts": "TIMING=1 eslint --ext .ts,.tsx .",
     "test": "jest --passWithNoTests",
-    "cypress:open": "cypress open",
     "release": "semantic-release -e semantic-release-monorepo"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "shared": "1.2.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@testing-library/cypress": "^9.0.0",

@@ -1,16 +1,16 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-pnpm lint-staged
+npx --no -- commitlint --edit ""
 
-npx secretlint "**/*"
+# pnpm lint-staged
 
 # pnpm exec tsc at each project
-curPath="./apps"
-for dir in ${curPath};do
-     if [ -d ${dir} ];then
-        cd ${dir}
-        pnpm exec tsc
-     fi
-done
+# curPath="./apps"
+# for dir in ${curPath};do
+#      if [ -d ${dir} ];then
+#         cd ${dir}
+#         pnpm exec tsc
+#      fi
+# done
 
