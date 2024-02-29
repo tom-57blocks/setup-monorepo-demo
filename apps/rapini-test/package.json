@@ -34,12 +34,9 @@
     "chromatic": "^6.20.0",
     "eslint-config": "workspace:*",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^29.6.2",
-    "jest-environment-jsdom": "^29.6.2",
     "prettier-config": "workspace:*",
     "release-config": "workspace:*",
     "semantic-release-monorepo": "^7.0.5",
-    "ts-jest": "^29.1.1",
     "typescript": "^5.3.3",
     "ui-package": "workspace:*",
     "vite": "^4.4.8"
