@@ -18,7 +18,7 @@ export const App: React.FC = () => {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="app">
+      <div className='app'>
         <p>Hello Dashboard!</p>
       </div>
       <Example />
