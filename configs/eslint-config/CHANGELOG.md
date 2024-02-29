@@ -5,6 +5,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/eslint-config@1.3.0...eslint-config@1.5.0) (2024-2-29)
+
+### Features
+
+- **prittierScript:** prettier script configuration ([227d1d0](https://github.com/tom-57blocks/setup-monorepo-demo/commit/227d1d0f53268ad2ad619cb77a6d514bc3d3d067))
+- **prittierScript:** prettier script configuration ([a4f99a2](https://github.com/tom-57blocks/setup-monorepo-demo/commit/a4f99a24d2b26de80e7ef4d4ca6df4f2a3e27add))
+
 # [1.4.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/eslint-config@1.3.0...eslint-config@1.4.0) (2024-2-29)
 
 ### Features

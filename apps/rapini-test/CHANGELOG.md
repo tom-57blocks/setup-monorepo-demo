@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/rapini-test@0.6.0...rapini-test@0.7.0) (2024-2-29)
+
+### Features
+
+- **prittierScript:** prettier script configuration ([227d1d0](https://github.com/tom-57blocks/setup-monorepo-demo/commit/227d1d0f53268ad2ad619cb77a6d514bc3d3d067))
+
 # [0.6.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/rapini-test@0.4.0...rapini-test@0.6.0) (2024-2-29)
 
 ### Features
