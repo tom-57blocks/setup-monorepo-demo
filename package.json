@@ -18,6 +18,7 @@
     "build": "turbo build",
     "test": "turbo test",
     "lint": "turbo lint",
+    "prettier": "turbo prettier",
     "lint:knip": "knip --exports",
     "lint:secrets": "npx secretlint **/*",
     "lint:deps": "npx syncpack lint --config .syncpackrc",

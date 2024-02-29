@@ -17,6 +17,10 @@
       "dependsOn": ["^build"],
       "outputs": []
     },
+    "prettier": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
     "release": {
       "cache": false
     }
