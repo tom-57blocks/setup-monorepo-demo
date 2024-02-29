@@ -28,7 +28,7 @@
     "version:ci:norelease": "lerna version --yes --conventional-commits"
   },
   "lint-staged": {
-    "apps/*/src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+    "{apps, package}/*/src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
       "prettier --write",
       "eslint --fix"
     ]
