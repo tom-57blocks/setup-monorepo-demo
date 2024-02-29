@@ -9,7 +9,7 @@
     "dev": "vite --port 3002 --host localhost",
     "build": "vite build",
     "serve": "vite preview --host",
-    "prettier": "npx prettier --write **/*.{js,jsx,ts,tsx,json,css,scss,md}",
+    "prettier": "npx prettier --write src/**",
     "lint": "pnpm run lint:scripts",
     "lint:scripts": "TIMING=1 eslint --ext .ts,.tsx .",
     "test": "jest --passWithNoTests",
