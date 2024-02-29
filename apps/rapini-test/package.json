@@ -1,6 +1,6 @@
 {
   "name": "rapini-test",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "engines": {
     "node": ">=18.17.0",
     "npm": ">=9.0.0"
