@@ -11,7 +11,7 @@
     "serve": "vite preview --host",
     "prettier": "npx prettier --write src/**",
     "lint": "npm run lint:scripts",
-    "lint:scripts": "TIMING=1 eslint --ext .ts,.tsx .",
+    "lint:scripts": "TIMING=1 eslint --ext .ts,.tsx . --fix",
     "test": "jest --passWithNoTests",
     "cypress:open": "cypress open",
     "release": "semantic-release -e semantic-release-monorepo"
