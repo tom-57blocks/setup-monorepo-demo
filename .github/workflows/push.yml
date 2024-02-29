@@ -1,0 +1,32 @@
+name: ke admin portal deployment
+run-name: Deploy admin portal for ${{ inputs.build-target }}${{ github.ref_name }} by @${{ github.actor }}
+on:
+  push:
+    branches: ["**"]
+
+jobs:
+  build:
+    runs-on:
+      - self-hosted
+      - jia-docker-runner
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Build
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest-8 --activate
+          export VITE_API_URL="https://dev-bff.jia.xyz/api"
+          export VITE_COUNTRIES="KE"
+          pnpm install --frozen-lockfile
+          pnpm exec tsc
+          pnpm exec eslint src
+          pnpm exec vite build
