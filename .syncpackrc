@@ -1,0 +1,37 @@
+{
+  "formatRepository": true,
+  "lintFormatting": false,
+  "semverGroups": [
+    {
+      "label": "Every dependency should have a semver range of fixed version numbers",
+      "range": "",
+      "dependencyTypes": [
+        "prod",
+        "resolutions",
+        "overrides",
+        "pnpmOverrides",
+        "local"
+      ],
+      "dependencies": [
+        "**"
+      ],
+      "packages": [
+        "**"
+      ]
+    }
+  ],
+  "versionGroups": [
+    {
+      "label": "Use workspace protocol when developing local packages",
+      "dependencies": [
+        "$LOCAL"
+      ],
+      "dependencyTypes": [
+        "prod",
+        "dev",
+        "peer"
+      ],
+      "pinVersion": "workspace:*"
+    }
+  ]
+}

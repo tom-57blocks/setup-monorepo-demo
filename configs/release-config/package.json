@@ -1,0 +1,17 @@
+{
+  "name": "release-config",
+  "version": "1.3.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "semantic-release": "^21.0.7"
+  },
+  "devDependencies": {
+    "eslint-config": "workspace:*",
+    "prettier-config": "workspace:*"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

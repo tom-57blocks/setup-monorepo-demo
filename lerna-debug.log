@@ -1,25 +1,90 @@
 0 silly argv [object Object]
 1 notice cli v3.3.0
 2 verbose rootPath /Users/57block/Desktop/mystudy/setup-monorepo-demo
-3 silly createGitHubClient
-4 info versioning independent
-5 verbose project packages packages/* apps/*
-6 silly isAnythingCommitted
-7 verbose isAnythingCommitted 1
-8 silly currentBranch
-9 verbose currentBranch feat/monorepo-v2
-10 silly remoteBranchExists
-11 silly isBehindUpstream
-12 silly isBehindUpstream feat/monorepo-v2 is behind origin/feat/monorepo-v2 by 0 commit(s) and ahead by 0
-13 verbose git-describe.sync "*@*" => "5d6b270-dirty"
-14 silly git-describe parsed => {"refCount":"36","sha":"5d6b270","isDirty":true}
-15 silly git getCurrentBranchFirstCommit
-16 verbose exec git log --oneline --format="%h %aI" --reverse --max-parents=0 HEAD
-17 info oldestCommitSinceLastTag commit found since last tag: undefined - (SHA) e4a8c2b - 2023-08-01T14:25:31+01:00
-18 silly parseGitRepo
-19 verbose git config --get remote.origin.url
-20 silly createGitHubClient
-21 error HttpError: This endpoint requires you to be authenticated. - https://docs.github.com/graphql/guides/forming-calls-with-graphql#authenticating-with-graphql
-21 error     at /Users/57block/Desktop/mystudy/setup-monorepo-demo/node_modules/.pnpm/@octokit+request@8.2.0/node_modules/@octokit/request/dist-node/index.js:124:21
-21 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-21 error     at async getGithubCommits (file:///Users/57block/Desktop/mystudy/setup-monorepo-demo/node_modules/.pnpm/@lerna-lite+version@3.3.0_typescript@5.3.3/node_modules/@lerna-lite/version/dist/conventional-commits/get-github-commits.js:24:26)
+3 info versioning independent
+4 verbose project packages packages/* apps/* configs/*
+5 silly isAnythingCommitted
+6 verbose isAnythingCommitted 1
+7 silly currentBranch
+8 verbose currentBranch feat/tools
+9 silly remoteBranchExists
+10 silly isBehindUpstream
+11 silly isBehindUpstream feat/tools is behind origin/feat/tools by 0 commit(s) and ahead by 1
+12 silly hasTags
+13 verbose hasTags filter for tags with '*@*' pattern
+14 verbose hasTags true
+15 verbose git-describe.sync "*@*" => "api-tanstack@1.4.0-1-ga4f99a2"
+16 silly git-describe parsed => {"lastTagName":"api-tanstack@1.4.0","lastVersion":"1.4.0","refCount":"1","sha":"a4f99a2","isDirty":false}
+17 info Looking for changed packages since api-tanstack@1.4.0
+18 info ignoring diff in paths matching **/CHANGELOG.md **/node_modules/**
+19 silly checking diff apps/admin
+20 silly no diff found in admin
+21 silly checking diff apps/dashboard
+22 silly no diff found in dashboard
+23 silly checking diff apps/rapini-test
+24 silly no diff found in rapini-test
+25 silly checking diff configs/eslint-config
+26 silly found diff in configs/eslint-config/index.js
+27 verbose filtered diff configs/eslint-config/index.js
+28 silly checking diff configs/prettier-config
+29 silly no diff found in prettier-config
+30 silly checking diff configs/release-config
+31 silly no diff found in release-config
+32 silly checking diff packages/api
+33 silly no diff found in api-tanstack
+34 silly checking diff packages/ui
+35 silly no diff found in ui-package
+36 verbose updated eslint-config
+37 silly git-describe parsed => {"lastTagName":"api-tanstack@1.4.0","lastVersion":"1.4.0","refCount":"1","sha":"a4f99a2","isDirty":false}
+38 silly independent for eslint-config at /Users/57block/Desktop/mystudy/setup-monorepo-demo/configs/eslint-config
+39 verbose getChangelogConfig using preset "angular"
+40 silly npa Result {
+40 silly npa   type: 'range',
+40 silly npa   registry: true,
+40 silly npa   where: undefined,
+40 silly npa   raw: 'angular',
+40 silly npa   name: 'angular',
+40 silly npa   escapedName: 'angular',
+40 silly npa   scope: undefined,
+40 silly npa   rawSpec: '*',
+40 silly npa   saveSpec: null,
+40 silly npa   fetchSpec: '*',
+40 silly npa   gitRange: undefined,
+40 silly npa   gitCommittish: undefined,
+40 silly npa   gitSubdir: undefined,
+40 silly npa   hosted: undefined
+40 silly npa }
+41 verbose getChangelogConfig Attempting to resolve preset "angular"
+42 verbose getChangelogConfig Cannot find package 'angular' imported from /Users/57block/Desktop/mystudy/setup-monorepo-demo/node_modules/.pnpm/@lerna-lite+version@3.3.0_typescript@5.3.3/node_modules/@lerna-lite/version/dist/conventional-commits/get-changelog-config.js
+43 info getChangelogConfig Auto-prefixing conventional-changelog preset "angular"
+44 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+45 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+46 verbose independent increment 1.3.0 by minor - eslint-config
+47 info auto-confirmed
+48 silly lifecycle No script for "preversion" in "demo-monorepo", continuing
+49 silly lifecycle No script for "preversion" in "eslint-config", continuing
+50 silly lifecycle No script for "version" in "eslint-config", continuing
+51 silly independent for eslint-config at /Users/57block/Desktop/mystudy/setup-monorepo-demo/configs/eslint-config
+52 silly independent writing new entry: "# [1.4.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/eslint-config@1.3.0...eslint-config@1.4.0) (2024-2-29)\n\n\n### Features\n\n* **prittierScript:** prettier script configuration ([a4f99a2](https://github.com/tom-57blocks/setup-monorepo-demo/commit/a4f99a24d2b26de80e7ef4d4ca6df4f2a3e27add))\n\n\n\n"
+53 verbose independent wrote /Users/57block/Desktop/mystudy/setup-monorepo-demo/configs/eslint-config/CHANGELOG.md
+54 verbose lock updating lock file via "pnpm install --lockfile-only --ignore-scripts"
+55 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
+55 error Scope: all 9 workspace projects
+55 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
+55 error Progress: resolved 0, reused 1, downloaded 0, added 0
+55 error Progress: resolved 49, reused 49, downloaded 0, added 0
+55 error /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/rapini-test:
+55 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for eslint-config@1.3.0
+55 error
+55 error This error happened while installing a direct dependency of /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/rapini-test
+55 error
+55 error The latest release of eslint-config is "0.3.0".
+55 error
+55 error Other releases are:
+55 error   * legacy: 0.4.0-legacy
+55 error
+55 error If you need the full list of all 6 published versions run "$ pnpm view eslint-config versions".
+55 error     at makeError (file:///Users/57block/Desktop/mystudy/setup-monorepo-demo/node_modules/.pnpm/execa@8.0.1/node_modules/execa/lib/error.js:60:11)
+55 error     at handlePromise (file:///Users/57block/Desktop/mystudy/setup-monorepo-demo/node_modules/.pnpm/execa@8.0.1/node_modules/execa/index.js:124:26)
+55 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+55 error     at async runInstallLockFileOnly (file:///Users/57block/Desktop/mystudy/setup-monorepo-demo/node_modules/.pnpm/@lerna-lite+version@3.3.0_typescript@5.3.3/node_modules/@lerna-lite/version/dist/lib/update-lockfile-version.js:91:17)
