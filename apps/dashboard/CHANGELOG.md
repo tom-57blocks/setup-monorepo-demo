@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.2](https://github.com/tom-57blocks/setup-monorepo-demo/compare/dashboard@0.7.1...dashboard@0.7.2) (2024-2-29)
+
+### Bug Fixes
+
+- **prittierScript:** prettier script configuration ([484fee9](https://github.com/tom-57blocks/setup-monorepo-demo/commit/484fee919732fd653395cdff3726897f1976936e))
+
 ## [0.7.1](https://github.com/tom-57blocks/setup-monorepo-demo/compare/dashboard@0.7.0...dashboard@0.7.1) (2024-2-29)
 
 ### Bug Fixes
