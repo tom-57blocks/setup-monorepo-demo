@@ -88,16 +88,16 @@ importers:
         specifier: ^6.20.0
         version: 6.24.1
       eslint-config:
-        specifier: 1.2.0
+        specifier: workspace:*
         version: link:../../configs/eslint-config
       identity-obj-proxy:
         specifier: ^3.0.0
         version: 3.0.0
       prettier-config:
-        specifier: 1.2.0
+        specifier: workspace:*
         version: link:../../configs/prettier-config
       release-config:
-        specifier: 1.2.0
+        specifier: workspace:*
         version: link:../../configs/release-config
       semantic-release-monorepo:
         specifier: ^7.0.5
@@ -146,16 +146,16 @@ importers:
         specifier: ^6.20.0
         version: 6.24.1
       eslint-config:
-        specifier: 1.2.0
+        specifier: workspace:*
         version: link:../../configs/eslint-config
       identity-obj-proxy:
         specifier: ^3.0.0
         version: 3.0.0
       prettier-config:
-        specifier: 1.2.0
+        specifier: workspace:*
         version: link:../../configs/prettier-config
       release-config:
-        specifier: 1.2.0
+        specifier: workspace:*
         version: link:../../configs/release-config
       semantic-release-monorepo:
         specifier: ^7.0.5
@@ -225,7 +225,7 @@ importers:
         specifier: ^29.6.2
         version: 29.7.0
       prettier-config:
-        specifier: 1.2.0
+        specifier: 1.3.0
         version: link:../../configs/prettier-config
       release-config:
         specifier: 1.2.0
@@ -286,7 +286,7 @@ importers:
         version: 0.6.15(eslint@8.57.0)(typescript@5.3.3)
     devDependencies:
       prettier-config:
-        specifier: 1.2.0
+        specifier: workspace:*
         version: link:../prettier-config
 
   configs/prettier-config:
@@ -302,10 +302,10 @@ importers:
         version: 21.1.2(typescript@5.3.3)
     devDependencies:
       eslint-config:
-        specifier: 1.2.0
+        specifier: workspace:*
         version: link:../eslint-config
       prettier-config:
-        specifier: 1.2.0
+        specifier: workspace:*
         version: link:../prettier-config
 
   packages/api:

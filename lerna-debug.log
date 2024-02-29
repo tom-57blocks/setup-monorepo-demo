@@ -9,171 +9,139 @@
 8 verbose currentBranch feat/tools
 9 silly remoteBranchExists
 10 silly isBehindUpstream
-11 silly isBehindUpstream feat/tools is behind origin/feat/tools by 0 commit(s) and ahead by 2
+11 silly isBehindUpstream feat/tools is behind origin/feat/tools by 0 commit(s) and ahead by 1
 12 silly hasTags
 13 verbose hasTags filter for tags with '*@*' pattern
 14 verbose hasTags true
-15 verbose git-describe.sync "*@*" => "eslint-config@1.2.0-3-gd6af4b3"
-16 silly git-describe parsed => {"lastTagName":"eslint-config@1.2.0","lastVersion":"1.2.0","refCount":"3","sha":"d6af4b3","isDirty":false}
-17 info Looking for changed packages since eslint-config@1.2.0
+15 verbose git-describe.sync "*@*" => "admin@0.5.0-3-gbfdfab8"
+16 silly git-describe parsed => {"lastTagName":"admin@0.5.0","lastVersion":"0.5.0","refCount":"3","sha":"bfdfab8","isDirty":false}
+17 info Looking for changed packages since admin@0.5.0
 18 info ignoring diff in paths matching **/CHANGELOG.md **/node_modules/**
 19 silly checking diff apps/admin
-20 silly found diff in apps/admin/.eslintrc.js
-20 silly found diff in apps/admin/.gitignore
-20 silly found diff in apps/admin/.prettierrc
-20 silly found diff in apps/admin/.stylelintignore
-20 silly found diff in apps/admin/CHANGELOG.md
-20 silly found diff in apps/admin/README.md
-20 silly found diff in apps/admin/index.html
 20 silly found diff in apps/admin/jest.config.ts
 20 silly found diff in apps/admin/package.json
-20 silly found diff in apps/admin/release.config.js
-20 silly found diff in apps/admin/src/App.css
-20 silly found diff in apps/admin/src/App.tsx
-20 silly found diff in apps/admin/src/favicon.svg
-20 silly found diff in apps/admin/src/logo.svg
-20 silly found diff in apps/admin/src/main.tsx
-20 silly found diff in apps/admin/src/vite-env.d.ts
-20 silly found diff in apps/admin/tsconfig.json
-20 silly found diff in apps/admin/tsconfig.node.json
-20 silly found diff in apps/admin/vite.config.ts
-21 verbose filtered diff apps/admin/.eslintrc.js apps/admin/.gitignore apps/admin/.prettierrc apps/admin/.stylelintignore apps/admin/README.md apps/admin/index.html apps/admin/jest.config.ts apps/admin/package.json apps/admin/release.config.js apps/admin/src/App.css apps/admin/src/App.tsx apps/admin/src/favicon.svg apps/admin/src/logo.svg apps/admin/src/main.tsx apps/admin/src/vite-env.d.ts apps/admin/tsconfig.json apps/admin/tsconfig.node.json apps/admin/vite.config.ts
+21 verbose filtered diff apps/admin/jest.config.ts apps/admin/package.json
 22 silly checking diff apps/dashboard
-23 silly found diff in apps/dashboard/.eslintrc.js
-23 silly found diff in apps/dashboard/.gitignore
-23 silly found diff in apps/dashboard/.prettierrc
-23 silly found diff in apps/dashboard/.stylelintignore
-23 silly found diff in apps/dashboard/CHANGELOG.md
-23 silly found diff in apps/dashboard/README.md
-23 silly found diff in apps/dashboard/index.html
 23 silly found diff in apps/dashboard/jest.config.ts
 23 silly found diff in apps/dashboard/package.json
-23 silly found diff in apps/dashboard/release.config.js
-23 silly found diff in apps/dashboard/src/App.css
-23 silly found diff in apps/dashboard/src/App.tsx
-23 silly found diff in apps/dashboard/src/favicon.svg
-23 silly found diff in apps/dashboard/src/logo.svg
-23 silly found diff in apps/dashboard/src/main.tsx
-23 silly found diff in apps/dashboard/src/vite-env.d.ts
-23 silly found diff in apps/dashboard/tsconfig.json
-23 silly found diff in apps/dashboard/tsconfig.node.json
-23 silly found diff in apps/dashboard/vite.config.ts
-24 verbose filtered diff apps/dashboard/.eslintrc.js apps/dashboard/.gitignore apps/dashboard/.prettierrc apps/dashboard/.stylelintignore apps/dashboard/README.md apps/dashboard/index.html apps/dashboard/jest.config.ts apps/dashboard/package.json apps/dashboard/release.config.js apps/dashboard/src/App.css apps/dashboard/src/App.tsx apps/dashboard/src/favicon.svg apps/dashboard/src/logo.svg apps/dashboard/src/main.tsx apps/dashboard/src/vite-env.d.ts apps/dashboard/tsconfig.json apps/dashboard/tsconfig.node.json apps/dashboard/vite.config.ts
+24 verbose filtered diff apps/dashboard/jest.config.ts apps/dashboard/package.json
 25 silly checking diff apps/rapini-test
-26 silly found diff in apps/rapini-test/.eslintrc.js
-26 silly found diff in apps/rapini-test/.gitignore
-26 silly found diff in apps/rapini-test/.prettierrc
-26 silly found diff in apps/rapini-test/.stylelintignore
-26 silly found diff in apps/rapini-test/CHANGELOG.md
-26 silly found diff in apps/rapini-test/README.md
-26 silly found diff in apps/rapini-test/index.html
-26 silly found diff in apps/rapini-test/jest.config.ts
 26 silly found diff in apps/rapini-test/package.json
-26 silly found diff in apps/rapini-test/release.config.js
-26 silly found diff in apps/rapini-test/src/App.css
 26 silly found diff in apps/rapini-test/src/App.tsx
 26 silly found diff in apps/rapini-test/src/Example.tsx
-26 silly found diff in apps/rapini-test/src/axios-rapini/axios-instance.ts
-26 silly found diff in apps/rapini-test/src/favicon.svg
-26 silly found diff in apps/rapini-test/src/logo.svg
-26 silly found diff in apps/rapini-test/src/main.tsx
-26 silly found diff in apps/rapini-test/src/vite-env.d.ts
-26 silly found diff in apps/rapini-test/tsconfig.json
-26 silly found diff in apps/rapini-test/tsconfig.node.json
-26 silly found diff in apps/rapini-test/vite.config.ts
-27 verbose filtered diff apps/rapini-test/.eslintrc.js apps/rapini-test/.gitignore apps/rapini-test/.prettierrc apps/rapini-test/.stylelintignore apps/rapini-test/README.md apps/rapini-test/index.html apps/rapini-test/jest.config.ts apps/rapini-test/package.json apps/rapini-test/release.config.js apps/rapini-test/src/App.css apps/rapini-test/src/App.tsx apps/rapini-test/src/Example.tsx apps/rapini-test/src/axios-rapini/axios-instance.ts apps/rapini-test/src/favicon.svg apps/rapini-test/src/logo.svg apps/rapini-test/src/main.tsx apps/rapini-test/src/vite-env.d.ts apps/rapini-test/tsconfig.json apps/rapini-test/tsconfig.node.json apps/rapini-test/vite.config.ts
+27 verbose filtered diff apps/rapini-test/package.json apps/rapini-test/src/App.tsx apps/rapini-test/src/Example.tsx
 28 silly checking diff configs/eslint-config
 29 silly no diff found in eslint-config
 30 silly checking diff configs/prettier-config
-31 silly no diff found in prettier-config
-32 silly checking diff configs/release-config
-33 silly no diff found in release-config
-34 silly checking diff packages/api
-35 silly found diff in packages/api/dist-esm/index.mjs
-35 silly found diff in packages/api/index.ts
-35 silly found diff in packages/api/package.json
-36 verbose filtered diff packages/api/dist-esm/index.mjs packages/api/index.ts packages/api/package.json
-37 silly checking diff packages/ui
-38 silly found diff in packages/ui/package.json
-38 silly found diff in packages/ui/src/index.ts
-38 silly found diff in packages/ui/tsconfig.json
-39 verbose filtered diff packages/ui/package.json packages/ui/src/index.ts packages/ui/tsconfig.json
-40 verbose updated admin
-41 verbose updated dashboard
-42 verbose updated rapini-test
-43 verbose updated api-tanstack
-44 verbose updated ui-package
-45 silly git-describe parsed => {"lastTagName":"eslint-config@1.2.0","lastVersion":"1.2.0","refCount":"3","sha":"d6af4b3","isDirty":false}
-46 silly independent for admin at /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/admin
-47 verbose getChangelogConfig using preset "angular"
-48 silly npa Result {
-48 silly npa   type: 'range',
-48 silly npa   registry: true,
-48 silly npa   where: undefined,
-48 silly npa   raw: 'angular',
-48 silly npa   name: 'angular',
-48 silly npa   escapedName: 'angular',
-48 silly npa   scope: undefined,
-48 silly npa   rawSpec: '*',
-48 silly npa   saveSpec: null,
-48 silly npa   fetchSpec: '*',
-48 silly npa   gitRange: undefined,
-48 silly npa   gitCommittish: undefined,
-48 silly npa   gitSubdir: undefined,
-48 silly npa   hosted: undefined
-48 silly npa }
-49 verbose getChangelogConfig Attempting to resolve preset "angular"
-50 verbose getChangelogConfig Cannot find package 'angular' imported from /Users/57block/Library/pnpm/global/5/.pnpm/@lerna-lite+version@3.3.0/node_modules/@lerna-lite/version/dist/conventional-commits/get-changelog-config.js
-51 info getChangelogConfig Auto-prefixing conventional-changelog preset "angular"
-52 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
-53 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-54 verbose independent increment 0.3.0 by minor - admin
-55 silly independent for dashboard at /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/dashboard
-56 verbose independent increment 0.3.0 by minor - dashboard
-57 silly independent for rapini-test at /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/rapini-test
-58 verbose independent increment 0.2.0 by minor - rapini-test
-59 silly independent for api-tanstack at /Users/57block/Desktop/mystudy/setup-monorepo-demo/packages/api
-60 verbose independent increment 1.0.8 by minor - api-tanstack
-61 silly independent for ui-package at /Users/57block/Desktop/mystudy/setup-monorepo-demo/packages/ui
-62 verbose independent increment 1.0.0 by minor - ui-package
-63 silly lifecycle No script for "preversion" in "demo-monorepo", continuing
-64 silly lifecycle No script for "preversion" in "admin", continuing
-65 silly lifecycle No script for "preversion" in "dashboard", continuing
-66 silly lifecycle No script for "preversion" in "api-tanstack", continuing
-67 silly lifecycle No script for "preversion" in "ui-package", continuing
-68 silly lifecycle No script for "version" in "admin", continuing
-69 silly independent for admin at /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/admin
-70 silly lifecycle No script for "version" in "dashboard", continuing
-71 silly independent for dashboard at /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/dashboard
-72 silly lifecycle No script for "version" in "ui-package", continuing
-73 silly independent for ui-package at /Users/57block/Desktop/mystudy/setup-monorepo-demo/packages/ui
-74 silly lifecycle No script for "version" in "api-tanstack", continuing
-75 silly independent for api-tanstack at /Users/57block/Desktop/mystudy/setup-monorepo-demo/packages/api
-76 silly independent writing new entry: "# 1.1.0 (2024-2-29)\n\n\n### Features\n\n* **rapini:** convert open api yaml to tanstack by using rapini ([e2273e9](https://github.com/tom-57blocks/setup-monorepo-demo/commit/e2273e92a84bba3eae4cbcd31863b4a426afbde0))\n\n\n\n"
-77 silly independent writing new entry: "# 1.1.0 (2024-2-29)\n\n\n### Features\n\n* **rapini:** convert open api yaml to tanstack by using rapini ([e2273e9](https://github.com/tom-57blocks/setup-monorepo-demo/commit/e2273e92a84bba3eae4cbcd31863b4a426afbde0))\n\n\n\n"
-78 silly independent writing new entry: "# 0.4.0 (2024-2-29)\n\n\n### Features\n\n* **rapini:** convert open api yaml to tanstack by using rapini ([e2273e9](https://github.com/tom-57blocks/setup-monorepo-demo/commit/e2273e92a84bba3eae4cbcd31863b4a426afbde0))\n\n\n\n"
-79 verbose independent wrote /Users/57block/Desktop/mystudy/setup-monorepo-demo/packages/ui/CHANGELOG.md
-80 verbose independent wrote /Users/57block/Desktop/mystudy/setup-monorepo-demo/packages/api/CHANGELOG.md
-81 silly lifecycle No script for "preversion" in "rapini-test", continuing
-82 verbose independent wrote /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/admin/CHANGELOG.md
-83 silly independent writing new entry: "# 0.4.0 (2024-2-29)\n\n\n### Features\n\n* **rapini:** convert open api yaml to tanstack by using rapini ([e2273e9](https://github.com/tom-57blocks/setup-monorepo-demo/commit/e2273e92a84bba3eae4cbcd31863b4a426afbde0))\n\n\n\n"
-84 verbose independent wrote /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/dashboard/CHANGELOG.md
-85 silly lifecycle No script for "version" in "rapini-test", continuing
-86 silly independent for rapini-test at /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/rapini-test
-87 silly independent writing new entry: "# 0.3.0 (2024-2-29)\n\n\n### Features\n\n* **rapini:** convert open api yaml to tanstack by using rapini ([e2273e9](https://github.com/tom-57blocks/setup-monorepo-demo/commit/e2273e92a84bba3eae4cbcd31863b4a426afbde0))\n\n\n\n"
-88 verbose independent wrote /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/rapini-test/CHANGELOG.md
-89 verbose lock updating lock file via "pnpm install --lockfile-only --ignore-scripts"
-90 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
-90 error Scope: all 9 workspace projects
-90 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
-90 error /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/rapini-test:
-90 error  ERR_PNPM_WORKSPACE_PKG_NOT_FOUND  In apps/rapini-test: "package-api@workspace:*" is in the dependencies but no package named "package-api" is present in the workspace
-90 error
-90 error This error happened while installing a direct dependency of /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/rapini-test
-90 error
-90 error Packages found in the workspace: demo-monorepo, admin, dashboard, rapini-test, eslint-config, prettier-config, release-config, api-tanstack, ui-package
-90 error Progress: resolved 0, reused 1, downloaded 0, added 0
-90 error     at makeError (file:///Users/57block/Library/pnpm/global/5/.pnpm/execa@8.0.1/node_modules/execa/lib/error.js:60:11)
-90 error     at handlePromise (file:///Users/57block/Library/pnpm/global/5/.pnpm/execa@8.0.1/node_modules/execa/index.js:124:26)
-90 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-90 error     at async runInstallLockFileOnly (file:///Users/57block/Library/pnpm/global/5/.pnpm/@lerna-lite+version@3.3.0/node_modules/@lerna-lite/version/dist/lib/update-lockfile-version.js:91:17)
+31 silly found diff in configs/prettier-config/index.js
+32 verbose filtered diff configs/prettier-config/index.js
+33 silly checking diff configs/release-config
+34 silly no diff found in release-config
+35 silly checking diff packages/api
+36 silly found diff in packages/api/package.json
+37 verbose filtered diff packages/api/package.json
+38 silly checking diff packages/ui
+39 silly found diff in packages/ui/package.json
+40 verbose filtered diff packages/ui/package.json
+41 verbose updated admin
+42 verbose updated dashboard
+43 verbose updated rapini-test
+44 verbose updated prettier-config
+45 verbose updated api-tanstack
+46 verbose updated ui-package
+47 silly git-describe parsed => {"lastTagName":"admin@0.5.0","lastVersion":"0.5.0","refCount":"3","sha":"bfdfab8","isDirty":false}
+48 silly independent for admin at /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/admin
+49 verbose getChangelogConfig using preset "angular"
+50 silly npa Result {
+50 silly npa   type: 'range',
+50 silly npa   registry: true,
+50 silly npa   where: undefined,
+50 silly npa   raw: 'angular',
+50 silly npa   name: 'angular',
+50 silly npa   escapedName: 'angular',
+50 silly npa   scope: undefined,
+50 silly npa   rawSpec: '*',
+50 silly npa   saveSpec: null,
+50 silly npa   fetchSpec: '*',
+50 silly npa   gitRange: undefined,
+50 silly npa   gitCommittish: undefined,
+50 silly npa   gitSubdir: undefined,
+50 silly npa   hosted: undefined
+50 silly npa }
+51 verbose getChangelogConfig Attempting to resolve preset "angular"
+52 verbose getChangelogConfig Cannot find package 'angular' imported from /Users/57block/Desktop/mystudy/setup-monorepo-demo/node_modules/.pnpm/@lerna-lite+version@3.3.0_typescript@5.3.3/node_modules/@lerna-lite/version/dist/conventional-commits/get-changelog-config.js
+53 info getChangelogConfig Auto-prefixing conventional-changelog preset "angular"
+54 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+55 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+56 verbose independent increment 0.5.0 by minor - admin
+57 silly independent for dashboard at /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/dashboard
+58 verbose independent increment 0.5.0 by minor - dashboard
+59 silly independent for rapini-test at /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/rapini-test
+60 verbose independent increment 0.4.0 by minor - rapini-test
+61 silly independent for prettier-config at /Users/57block/Desktop/mystudy/setup-monorepo-demo/configs/prettier-config
+62 verbose independent increment 1.2.0 by minor - prettier-config
+63 silly independent for api-tanstack at /Users/57block/Desktop/mystudy/setup-monorepo-demo/packages/api
+64 verbose independent increment 1.2.0 by minor - api-tanstack
+65 silly independent for ui-package at /Users/57block/Desktop/mystudy/setup-monorepo-demo/packages/ui
+66 verbose independent increment 1.2.0 by minor - ui-package
+67 info auto-confirmed
+68 silly lifecycle No script for "preversion" in "demo-monorepo", continuing
+69 silly lifecycle No script for "preversion" in "prettier-config", continuing
+70 silly lifecycle No script for "preversion" in "api-tanstack", continuing
+71 silly lifecycle No script for "preversion" in "ui-package", continuing
+72 silly lifecycle No script for "version" in "api-tanstack", continuing
+73 silly independent for api-tanstack at /Users/57block/Desktop/mystudy/setup-monorepo-demo/packages/api
+74 silly lifecycle No script for "version" in "prettier-config", continuing
+75 silly independent for prettier-config at /Users/57block/Desktop/mystudy/setup-monorepo-demo/configs/prettier-config
+76 silly lifecycle No script for "version" in "ui-package", continuing
+77 silly independent for ui-package at /Users/57block/Desktop/mystudy/setup-monorepo-demo/packages/ui
+78 silly independent writing new entry: "# [1.3.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/api-tanstack@1.2.0...api-tanstack@1.3.0) (2024-2-29)\n\n\n### Features\n\n* **githubWorkflows:** correct scripts ([e73626c](https://github.com/tom-57blocks/setup-monorepo-demo/commit/e73626c34e16cb0f4e06fb94819956ddd446d4cf))\n\n\n\n"
+79 silly independent writing new entry: "# [1.3.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/ui-package@1.2.0...ui-package@1.3.0) (2024-2-29)\n\n\n### Features\n\n* **githubWorkflows:** correct scripts ([e73626c](https://github.com/tom-57blocks/setup-monorepo-demo/commit/e73626c34e16cb0f4e06fb94819956ddd446d4cf))\n\n\n\n"
+80 silly independent writing new entry: "# [1.3.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/prettier-config@1.2.0...prettier-config@1.3.0) (2024-2-29)\n\n\n### Features\n\n* **prittierScript:** prettier script configuration ([bfdfab8](https://github.com/tom-57blocks/setup-monorepo-demo/commit/bfdfab8e9d7d919f7445aa86f12ef6cef18079f1))\n\n\n\n"
+81 verbose independent wrote /Users/57block/Desktop/mystudy/setup-monorepo-demo/packages/api/CHANGELOG.md
+82 verbose independent wrote /Users/57block/Desktop/mystudy/setup-monorepo-demo/packages/ui/CHANGELOG.md
+83 verbose independent wrote /Users/57block/Desktop/mystudy/setup-monorepo-demo/configs/prettier-config/CHANGELOG.md
+84 silly lifecycle No script for "preversion" in "admin", continuing
+85 silly lifecycle No script for "preversion" in "dashboard", continuing
+86 silly lifecycle No script for "preversion" in "rapini-test", continuing
+87 silly lifecycle No script for "version" in "dashboard", continuing
+88 silly independent for dashboard at /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/dashboard
+89 silly lifecycle No script for "version" in "rapini-test", continuing
+90 silly independent for rapini-test at /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/rapini-test
+91 silly lifecycle No script for "version" in "admin", continuing
+92 silly independent for admin at /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/admin
+93 silly independent writing new entry: "# [0.5.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/rapini-test@0.4.0...rapini-test@0.5.0) (2024-2-29)\n\n\n### Features\n\n* **githubWorkflows:** correct scripts ([e73626c](https://github.com/tom-57blocks/setup-monorepo-demo/commit/e73626c34e16cb0f4e06fb94819956ddd446d4cf))\n\n\n\n"
+94 silly independent writing new entry: "# [0.6.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/admin@0.5.0...admin@0.6.0) (2024-2-29)\n\n\n### Features\n\n* **githubWorkflows:** correct scripts ([e73626c](https://github.com/tom-57blocks/setup-monorepo-demo/commit/e73626c34e16cb0f4e06fb94819956ddd446d4cf))\n\n\n\n"
+95 verbose independent wrote /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/rapini-test/CHANGELOG.md
+96 verbose independent wrote /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/admin/CHANGELOG.md
+97 silly independent writing new entry: "# [0.6.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/dashboard@0.5.0...dashboard@0.6.0) (2024-2-29)\n\n\n### Features\n\n* **githubWorkflows:** correct scripts ([e73626c](https://github.com/tom-57blocks/setup-monorepo-demo/commit/e73626c34e16cb0f4e06fb94819956ddd446d4cf))\n\n\n\n"
+98 verbose independent wrote /Users/57block/Desktop/mystudy/setup-monorepo-demo/apps/dashboard/CHANGELOG.md
+99 verbose lock updating lock file via "pnpm install --lockfile-only --ignore-scripts"
+100 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
+100 error Scope: all 9 workspace projects
+100 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
+100 error Progress: resolved 0, reused 1, downloaded 0, added 0
+100 error
+100 error    ╭──────────────────────────────────────────────────────────────────╮
+100 error    │                                                                  │
+100 error    │                Update available! 8.15.0 → 8.15.4.                │
+100 error    │   Changelog: https://github.com/pnpm/pnpm/releases/tag/v8.15.4   │
+100 error    │         Run a script from: https://pnpm.io/installation          │
+100 error    │                                                                  │
+100 error    │      Follow @pnpmjs for updates: https://twitter.com/pnpmjs      │
+100 error    │                                                                  │
+100 error    ╰──────────────────────────────────────────────────────────────────╯
+100 error
+100 error Progress: resolved 49, reused 49, downloaded 0, added 0
+100 error /Users/57block/Desktop/mystudy/setup-monorepo-demo/configs/eslint-config:
+100 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for prettier-config@1.2.0
+100 error
+100 error This error happened while installing a direct dependency of /Users/57block/Desktop/mystudy/setup-monorepo-demo/configs/eslint-config
+100 error
+100 error The latest release of prettier-config is "1.0.0".
+100 error
+100 error If you need the full list of all 1 published versions run "$ pnpm view prettier-config versions".
+100 error     at makeError (file:///Users/57block/Desktop/mystudy/setup-monorepo-demo/node_modules/.pnpm/execa@8.0.1/node_modules/execa/lib/error.js:60:11)
+100 error     at handlePromise (file:///Users/57block/Desktop/mystudy/setup-monorepo-demo/node_modules/.pnpm/execa@8.0.1/node_modules/execa/index.js:124:26)
+100 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+100 error     at async runInstallLockFileOnly (file:///Users/57block/Desktop/mystudy/setup-monorepo-demo/node_modules/.pnpm/@lerna-lite+version@3.3.0_typescript@5.3.3/node_modules/@lerna-lite/version/dist/lib/update-lockfile-version.js:91:17)

@@ -18,7 +18,7 @@
     "eslint-plugin-storybook": "^0.6.13"
   },
   "devDependencies": {
-    "prettier-config": "1.2.0"
+    "prettier-config": "workspace:*"
   },
   "scripts": {
     "lint:scripts": "eslint ."

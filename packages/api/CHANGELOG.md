@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/api-tanstack@1.2.0...api-tanstack@1.3.0) (2024-2-29)
+
+### Features
+
+- **githubWorkflows:** correct scripts ([e73626c](https://github.com/tom-57blocks/setup-monorepo-demo/commit/e73626c34e16cb0f4e06fb94819956ddd446d4cf))
+
 # 1.2.0 (2024-2-29)
 
 ### Features
