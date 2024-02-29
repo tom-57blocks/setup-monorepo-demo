@@ -1,5 +1,5 @@
-name: ke admin portal deployment
-run-name: Deploy admin portal for ${{ inputs.build-target }}${{ github.ref_name }} by @${{ github.actor }}
+name: monorepo demo deployment
+run-name: Deploy monorepo for ${{ inputs.build-target }}${{ github.ref_name }} by @${{ github.actor }}
 on:
   push:
     branches: ["**"]
@@ -24,9 +24,6 @@ jobs:
         run: |
           corepack enable
           corepack prepare pnpm@latest-8 --activate
-          export VITE_API_URL="https://dev-bff.jia.xyz/api"
-          export VITE_COUNTRIES="KE"
           pnpm install --frozen-lockfile
-          pnpm exec tsc
-          pnpm exec eslint src
-          pnpm exec vite build
+          pnpm lint
+          pnpm build

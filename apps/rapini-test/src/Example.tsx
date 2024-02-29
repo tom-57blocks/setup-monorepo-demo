@@ -1,4 +1,4 @@
-import { initialize } from '../../../packages/api/dist'
+import { initialize } from 'api-tanstack'
 import axiosInstance from './axios-rapini/axios-instance'
 
 export default function Example() {
@@ -11,8 +11,7 @@ export default function Example() {
   // if (isError) return <div>An error has occurred</div>;
   // return <div>Test {data?.title}</div>
 
-  const { useTasksControllerFindOne, useUsersControllerFindOne } =
-    config.queries
+  const { useUsersControllerFindOne } = config.queries
   const id = '1111'
   const { isLoading, isError, data } = useUsersControllerFindOne(`${id}`)
   if (isLoading) return <div>Loading...</div>
