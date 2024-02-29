@@ -5,6 +5,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/ui-package@1.2.0...ui-package@1.4.0) (2024-2-29)
+
+### Features
+
+- **githubWorkflows:** correct scripts ([e73626c](https://github.com/tom-57blocks/setup-monorepo-demo/commit/e73626c34e16cb0f4e06fb94819956ddd446d4cf))
+- **prittierScript:** prettier script configuration ([bf20529](https://github.com/tom-57blocks/setup-monorepo-demo/commit/bf2052939d4ce388b3685dbd5241b90e66e8231d))
+
 # [1.3.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/ui-package@1.2.0...ui-package@1.3.0) (2024-2-29)
 
 ### Features

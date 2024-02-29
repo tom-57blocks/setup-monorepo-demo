@@ -5,6 +5,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/prettier-config@1.2.0...prettier-config@1.4.0) (2024-2-29)
+
+### Features
+
+- **prittierScript:** prettier script configuration ([bf20529](https://github.com/tom-57blocks/setup-monorepo-demo/commit/bf2052939d4ce388b3685dbd5241b90e66e8231d))
+- **prittierScript:** prettier script configuration ([bfdfab8](https://github.com/tom-57blocks/setup-monorepo-demo/commit/bfdfab8e9d7d919f7445aa86f12ef6cef18079f1))
+
 # [1.3.0](https://github.com/tom-57blocks/setup-monorepo-demo/compare/prettier-config@1.2.0...prettier-config@1.3.0) (2024-2-29)
 
 ### Features
