@@ -2,7 +2,7 @@ name: monorepo demo deployment
 run-name: Deploy monorepo for ${{ inputs.build-target }}${{ github.ref_name }} by @${{ github.actor }}
 on:
   push:
-    branches: ["**"]
+    branches: ["no_existence"]
 
 jobs:
   build:
